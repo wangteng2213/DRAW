@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.6.6">
+  <diagram name="第 1 页" id="qPSrlY6LRetcKdB0coO4">
+    <mxGraphModel dx="602" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="第一处理核M7_0" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="数据生成/签名请求" vertex="1">
+          <mxGeometry height="30" width="120" x="280" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="339.5" y="160" as="sourcePoint" />
+            <mxPoint x="339.5" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="开始" vertex="1">
+          <mxGeometry height="60" width="110" x="280" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9IAKXRv1Xjv8i-yLR7fN-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="339.5" y="40" as="sourcePoint" />
+            <mxPoint x="339.5" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-8" parent="1" style="text;whiteSpace=wrap;html=1;" value="Descriptor + Data" vertex="1">
+          <mxGeometry height="40" width="130" x="340" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-19" edge="1" parent="1" source="9IAKXRv1Xjv8i-yLR7fN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9IAKXRv1Xjv8i-yLR7fN-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="共享内存" vertex="1">
+          <mxGeometry height="110" width="280" x="200" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-13" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="220" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-14" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="发送区（TX0）&lt;br&gt;Data+Hash Signature" vertex="1">
+          <mxGeometry height="80" width="80" x="220" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-15" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="接受区（RX1）" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="第二处理核M7_1" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-21" parent="1" style="text;whiteSpace=wrap;html=1;" value="中断通知（MU）" vertex="1">
+          <mxGeometry height="40" width="120" x="345" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-24" edge="1" parent="1" source="9IAKXRv1Xjv8i-yLR7fN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9IAKXRv1Xjv8i-yLR7fN-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="数据读取 / 校验" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="9IAKXRv1Xjv8i-yLR7fN-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="硬件安全引擎（HSE）&lt;br&gt;&amp;nbsp; &amp;nbsp;1  - Hash计算&amp;nbsp;&lt;br&gt;                2  - 签名验证" vertex="1">
+          <mxGeometry height="60" width="200" x="240" y="510" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
